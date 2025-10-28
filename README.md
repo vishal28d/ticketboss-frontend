@@ -45,5 +45,5 @@ yarn start
 use npm start to run
 
 
---- Developed by Vishal Maurya
+ Developed by Vishal Maurya
 
