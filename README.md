@@ -24,23 +24,23 @@ Before you start, make sure you have:
 
 Follow these steps to get the project up and running locally.
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/vishal28d/ticketboss-frontend.git
 cd ticketboss-frontend
 
-# 2. Install dependencies
+## 2. Install dependencies
 npm install
 
-# 3. Setup environment variables
-# Create a file named .env in the root of the project with content like:
-# REACT_APP_API_URL=https://your-backend-api-url.com
+## 3. Setup environment variables
+## Create a file named .env in the root of the project with content like:
+## REACT_APP_API_URL=https://your-backend-api-url.com
 cp .env.example .env
-# Then open `.env` and update the API URL and other settings as needed.
-# I have already provided MONGO_URI for convenience.
+## Then open `.env` and update the API URL and other settings as needed.
+## I have already provided MONGO_URI for convenience.
 
-# 4. Run the application in development mode
+## 4. Run the application in development mode
 npm start
-# or
+## or
 yarn start
 use npm start to run
 
