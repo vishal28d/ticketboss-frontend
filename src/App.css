@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  padding: 2rem;
+  font-family: sans-serif;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-panel {
+  flex: 1;
+  max-width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right-panel {
+  flex: 1;
+  max-width: 45%;
+  border-left: 1px solid #ddd;
+  padding-left: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.summary-card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-section {
+  margin-bottom: 1rem;
+}
+
+.form-section input {
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-section button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #2980b9;
+}
+
+.reservation-list {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reservation-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.cancel-btn {
+  background: #e74c3c;
   color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.cancel-btn:hover {
+  background: #c0392b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message {
+  font-weight: bold;
+  margin-top: 1rem;
 }
